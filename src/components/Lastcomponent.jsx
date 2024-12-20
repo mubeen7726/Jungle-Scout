@@ -84,7 +84,7 @@ function Lastcomponent() {
               backgroundImage: "url('/Section-7_simple-cta-cobalt-mobile.png')",
               backgroundSize: "170%",
               minHeight: "56vh",
-              maxHeight:"25rem",
+              maxHeight:"27rem",
               backgroundRepeat: "no-repeat",
               borderRadius: "10px",
             }}
