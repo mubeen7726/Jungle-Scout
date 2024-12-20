@@ -1,0 +1,37 @@
+
+#search {
+    border: none;
+    padding-top: 0;
+    background: none;
+    border-color: none;
+  }
+  /* Enable dropdown on hover */
+  .nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+  
+    margin-top: 0; /* Align dropdown with the navbar */
+  }
+  #Idhote{
+    border-radius: none;
+  border-right-width: 12px;
+  }
+  #Idhote:hover{
+    background-color: white;
+    color: dark;
+  border-top-left-radius:14px ;
+  border-bottom-left-radius: 13px;
+  border-top-right-radius:0px ;
+  border-bottom-right-radius:0px ;
+  }
+  
+  .dropdown:hover>.dropdown-menu {
+    display: block;
+  }
+  
+  .dropdown>.dropdown-toggle:active {
+    /*Without this, clicking will make it sticky*/
+      pointer-events: none;
+  }
+  #Borders{
+    border-left:2px solid orangered;
+  }

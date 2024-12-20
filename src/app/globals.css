@@ -1,0 +1,20 @@
+.hover:hover {
+    background-color: blue !important;
+    transition: background-color 0.4s ease; /* Smooth transition of background color */
+  }
+  .mysbutton:hover{
+background-color: blue;
+  }
+  @media screen and (min-width :1600px) {
+    #swiper-large{
+      width: 1600px;
+    }
+    #faqs-large{
+      width: 1500px;
+    }
+  }
+  @media screen and (min-width :1400px) {
+    #faqs-large{
+      width: 1500px;
+    }
+  }

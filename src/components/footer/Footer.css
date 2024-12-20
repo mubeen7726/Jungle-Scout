@@ -1,0 +1,26 @@
+.dropdown-item:hover {
+    background-color: #f0f0f0;
+    color: #333;
+  }
+  #dropdownMenuButton{
+    width: 153px;
+}
+  #dropdownMenuButton:hover{
+    background-color: white;
+    width: 153px;
+
+  }
+/* General footer styling */
+footer {
+  margin: 0;
+  padding: 0;
+}
+
+/* Flex container adjustments */
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; /* Ensures content wraps when necessary */
+}
+
+

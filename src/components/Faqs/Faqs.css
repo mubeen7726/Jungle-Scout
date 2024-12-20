@@ -1,0 +1,95 @@
+
+.accordionf {
+  background-color: rgb(254, 242, 231);
+  padding-top: 20px ;
+  padding-bottom: 20px ;
+  /* padding-top: 10rem; */
+ width: auto;
+  /* margin-bottom: 16px; */
+border-bottom: #dde2e4 1px solid;
+  cursor: context-menu;
+}
+.containery{
+  text-align: -webkit-center;
+}
+.accordionf.border{
+  border: #dde2e4 1px solid;
+
+}
+h3{
+  font-weight: bold 700;
+  font-family: Montserrat,sans-serif;
+}
+p{
+  font-family: Montserrat,sans-serif;
+}
+.questiona {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.answer {
+  color: #666;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s;
+}
+.circle-plus .circle {
+  position: relative;
+  width: 2.55em;
+  height: 2.5em;
+}
+
+.circle-plus .circle .horizontal,
+.circle-plus .circle .vertical {
+  position: absolute;
+  background-color: rgb(133, 149, 157);
+  transition: all 0.5s ease-in-out;
+}
+
+.circle-plus .circle .horizontal {
+  width: 15px;
+  height: 3px;
+  left: 50%;
+  margin-left: -15px;
+  top: 50%;
+  margin-top: -2.5px;
+}
+
+.circle-plus .circle .vertical {
+  width: 3px;
+  height: 15px;
+  left: 50%;
+  margin-left: -8px;
+  top: 50%;
+  margin-top: -9px;
+}
+
+.closed .vertical {
+  transform: rotate(-90deg);
+  opacity: 1;
+}
+
+.closed .horizontal {
+  transform: rotate(-90deg);
+  opacity: 1;
+}
+
+.opened .vertical {
+  transform: rotate(90deg);
+}
+
+.opened .horizontal {
+  transform: rotate(40deg);
+  opacity: 0;
+}
+
+@media screen and (min-width: 1050px) {
+  .accordionf {
+    /* padding-left: 10rem;
+    padding-right: 10rem; */
+    border-bottom: #dde2e4 1px solid;
+    width: 868px;
+  }
+}
