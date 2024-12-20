@@ -32,7 +32,7 @@ function Lastcomponent() {
         style={{
           backgroundImage: "url('/download (3).png')",
           backgroundSize: "100%",
-          minHeight: "139vh",
+          minHeight: "118vh",
           backgroundRepeat: "no-repeat",
           backgroundColor: "rgb(254,242,231)",
         }}
