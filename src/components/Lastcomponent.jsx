@@ -46,7 +46,7 @@ function Lastcomponent() {
             style={{
               backgroundImage: "url('/Section-7_simple-cta-cobalt.png')",
               backgroundSize: "100%",
-              maxHeight: "38vh",
+              maxHeight: "50%",
               backgroundRepeat: "no-repeat",
               borderRadius: "10px",
                         }}
