@@ -18,3 +18,8 @@ background-color: blue;
       width: 1500px;
     }
   }
+  @media screen and (min-width :190px) and (max-width:385px) {
+   #small-screen{
+      width: 195%;
+    }
+  }
