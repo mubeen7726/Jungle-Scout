@@ -82,8 +82,8 @@ function Lastcomponent() {
             className=" text-start px-4"
             style={{
               backgroundImage: "url('/Section-7_simple-cta-cobalt-mobile.png')",
-              backgroundSize: "167%",
-              minHeight: "49vh",
+              backgroundSize: "170%",
+              minHeight: "56vh",
               maxHeight:"25rem",
               backgroundRepeat: "no-repeat",
               borderRadius: "10px",
